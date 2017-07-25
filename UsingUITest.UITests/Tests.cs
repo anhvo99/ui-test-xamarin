@@ -16,7 +16,7 @@ namespace UsingUITest.UITests
 
 		static readonly Func<AppQuery, AppQuery> InitialMessage = c => c.Marked("MyLabel").Text("Hello, Xamarin.Forms!");
 		static readonly Func<AppQuery, AppQuery> Button = c => c.Marked("MyButton");
-		static readonly Func<AppQuery, AppQuery> DoneMessage = c => c.Marked("MyLabel").Text("Was clicked me now hahaha!");
+		static readonly Func<AppQuery, AppQuery> DoneMessage = c => c.Marked("MyLabel").Text("Was clicked me now !");
 
 
 		public Tests(Platform platform)
