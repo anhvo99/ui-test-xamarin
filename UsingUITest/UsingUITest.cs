@@ -12,7 +12,7 @@ namespace UsingUITest
 		public MyPage ()
 		{
 			var b = new Button {
-				Text = "Click me now",
+				Text = "Click me now hahaha",
 				AutomationId = "MyButton"		// referenced in UITests
 			};
 			b.Clicked += (sender, e) => {
